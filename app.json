@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "react-native-demo",
+    "slug": "react-native-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rajes42.reactnativedemo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rajes42.reactnativedemo"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a53c4c2b-6e09-4974-b656-f156cc7ac45b"
+      }
+    },
+    "owner": "rajes_42",
+    "updates": {
+      "url": "https://u.expo.dev/a53c4c2b-6e09-4974-b656-f156cc7ac45b"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
